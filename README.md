@@ -16,7 +16,7 @@ Settings for price increase/decrease notification thresholds can be configured i
 
 ![Example](https://scontent-yyz1-1.xx.fbcdn.net/v/t1.15752-9/69821029_386275908743433_5917483190263480320_n.png?_nc_cat=109&_nc_oc=AQk30XcJKwY9UWK9HTIQOOzozFAmv3bv1AE5-deYJT_RHxOZATJGi7x4dE-U74-O3tg&_nc_ht=scontent-yyz1-1.xx&oh=ca619eb9af75f233e9a0178abbf84214&oe=5DC95E98)
 
-URL's can be truncated in this fashion, and the letters following the URL denote which destination to send the email to. In this example, the first product is set up to send to person **c** and the third product is set up to send to person **a**, **b**, *and* **c**. The mapping connecting these symbols to actual email addresses is stored in **address_book.txt**:
+URL's can be truncated in this fashion, and the letters following the URL denote which destination to send the email to. In this example, the emails for the first product will send to person **c** and emails for the third product will send to person **a**, **b**, *and* **c**. The mapping connecting these symbols to actual email addresses is stored in **address_book.txt**:
 
 ![Exmple](https://scontent-yyz1-1.xx.fbcdn.net/v/t1.15752-9/69317226_2495849817138076_3772262036545732608_n.png?_nc_cat=100&_nc_oc=AQniA57kkA6SFmGMI_cmgJr1pjWsN3J-2zh3suybz4gzUnOmNZoKE02Jm7wUekkgW_w&_nc_ht=scontent-yyz1-1.xx&oh=4c61b94a976d23af14160392acb3d012&oe=5E059879)
 
