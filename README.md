@@ -4,7 +4,7 @@
 
 This open-source utility is designed to monitor a user-defined set of Amazon products and send email notifications to the user concerning price and availability changes.
 
-For ease of use, these scripts and assets can be hosted remotely (Google Cloud Platform, AWS, etc.) and scheduled via cron.
+For ease of use, these ``.py`` scripts and assets can be hosted remotely (Google Cloud Platform, AWS, etc.) and scheduled via cron.
 
 Scripts are written in Python, and make use of ``BeautifulSoup`` from the *bs4* package for scraping webpages. Emails are sent using *smtplib*.
 
@@ -26,12 +26,12 @@ Simply add/remove URL's and email addresses to **URL_list.txt** and **address_bo
 The required packages must be installed.
 For this utility, we only need *requests* and *bs4*:
 
-``$ pip install requests``
-``$ pip install bs4``
+``$ pip3 install requests``
+``$ pip3 install bs4``
 
 After the packages have successfully installed, simply run the script:
 
-``$ python scrape.py``
+``$ python3 scrape.py``
 
 Execution of the script can be automated via cron. Use the following command to edit the crontab, where you can specify the frequency with which the script will automatically run:
 
@@ -39,7 +39,7 @@ Execution of the script can be automated via cron. Use the following command to 
 
 To run the script every two hours, for instance, add the following line to the crontab:
 
-``0 */2 * * * python scrape.py``
+``0 */2 * * * python3 scrape.py``
 
 ## Notes
 
