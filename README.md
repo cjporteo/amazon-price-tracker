@@ -27,6 +27,7 @@ The required packages must be installed.
 For this utility, we only need *requests* and *bs4*:
 
 ``$ pip3 install requests``
+<br>
 ``$ pip3 install bs4``
 
 After the packages have successfully installed, simply run the script:
