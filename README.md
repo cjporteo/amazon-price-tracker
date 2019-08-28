@@ -22,9 +22,9 @@ URL's can be truncated in this fashion, and the letters following the URL denote
 
 Simply add/remove URL's and email addresses to **URL_list.txt** and **address_book.txt** to tailor the tracker to your needs.
 
-Line [89] of **product.py** will login to the *gmail* acount that sends the notifications. An app password needs to be generated for the *gmail* account which can be done at myaccount.google.com/apppasswords (two-factor authentication needs to be configured beforehand). For obvious reasons, I did not include a valid *gmail* account/password in the source code here, so be sure to modify the line of code before attempting to run the utility.
+Line [89] of **product.py** will login to the *gmail* acount that sends the notifications. An app password needs to be generated for the *gmail* account which can be done at [myaccount.google.com/apppasswords](myaccount.google.com/apppasswords) (two-factor authentication needs to be configured beforehand). For obvious reasons, I did not include a valid *gmail* account/password in the source code here, so be sure to modify the line of code before attempting to run the utility.
 
-[89] ``server.login("validemailaddress", "app-password")``
+[89]: ``server.login("validemailaddress", "app-password")``
 
 ## Running the Utility
 The required packages must be installed.
