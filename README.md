@@ -43,5 +43,5 @@ To run the script every two hours, for instance, add the following line to the c
 
 ## Notes
 
- - This utility is reliant on the current structure that Amazon uses to encode their product webpages. If implementation changes on their end, the utility will crash.
+ - This utility is reliant on the current structure that Amazon uses to encode their product webpages. If implementation changes on their end in the future, the utility will crash until updated.
  - This utility has only been tested for amazon.ca and amazon.com. Other currency systems and their representations in the webpage may be problematic.
