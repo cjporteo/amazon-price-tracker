@@ -27,6 +27,11 @@ Line [89] of **product.py** will login to the *gmail* acount that sends the noti
 [89]: ``server.login("validemailaddress", "app-password")``
 
 ## Running the Utility
+
+Installation:
+
+``$ git clone https://github.com/cjporteo/amzn-price-tracker``
+
 The required packages must be installed.
 For this utility, we only need *requests* and *bs4*:
 
