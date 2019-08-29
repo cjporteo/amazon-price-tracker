@@ -28,7 +28,7 @@ Line [89] of **product.py** will login to the *gmail* acount that sends the noti
 
 ## Running the Utility
 
-Installation:
+#### Installation:
 
 ``$ git clone https://github.com/cjporteo/amzn-price-tracker``
 
