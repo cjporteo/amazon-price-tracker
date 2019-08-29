@@ -43,7 +43,7 @@ After the packages have successfully installed, simply run the script:
 
 ``$ python3 scrape.py``
 
-#### Scheduling
+#### Scheduling:
 
 Execution of the script can be automated via cron. Use the following command to edit the crontab, where you can specify the frequency with which the script will automatically run:
 
