@@ -53,6 +53,13 @@ To run the script every two hours, for instance, add the following line to the c
 
 ``0 */2 * * * python3 scrape.py``
 
+## Email Notification
+
+When the price of a tracked product increases or decreases significantly (surpasses the configured threshold), a notification will be sent. Notifications will also be sent when an item goes back and forth between in stock and unavailable. Here is a sample notification:
+<br>
+![E-Mail](https://scontent-yyz1-1.xx.fbcdn.net/v/t1.15752-9/69617471_1146773968841594_6609910159797911552_n.png?_nc_cat=107&_nc_oc=AQlYAalKHgVbA4yzf72iLNudc7YY3eLVVFSKSdbChE2MV-qEu7EtFlgb4oMksk_-aTk&_nc_ht=scontent-yyz1-1.xx&oh=27ac9504d7f79403ed938ac91806a91e&oe=5E088C79)
+<br>
+
 ## Notes
 
  - This utility is reliant on the current structure that Amazon uses to encode their product webpages. If implementation changes on their end in the future, the utility will crash until updated.
