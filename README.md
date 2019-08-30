@@ -6,7 +6,7 @@ This open-source utility is designed to monitor a user-defined set of Amazon pro
 
 For ease of use, these ``.py`` scripts and assets can be hosted remotely (Google Cloud Platform, AWS, etc.) and scheduled via cron.
 
-Scripts are written in Python, and make use of ``BeautifulSoup`` from the [https://www.crummy.com/software/BeautifulSoup/bs4/doc/](*bs4*) package for scraping webpages. Emails are sent using [https://docs.python.org/3/library/smtplib.html](*smtplib*).
+Scripts are written in Python, and make use of ``BeautifulSoup`` from the [*bs4*](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) package for scraping webpages. Emails are sent using [*smtplib*](https://docs.python.org/3/library/smtplib.html).
 
 ## Functionality
 
@@ -33,7 +33,7 @@ Line [89] of **product.py** will login to the *gmail* acount that sends the noti
 ``$ git clone https://github.com/cjporteo/amzn-price-tracker``
 
 The required packages must be installed.
-For this utility, we only need [https://2.python-requests.org/en/master/](*requests*) and [https://www.crummy.com/software/BeautifulSoup/bs4/doc/](*bs4*):
+For this utility, we only need [*requests*](https://2.python-requests.org/en/master/) and [*bs4*](https://www.crummy.com/software/BeautifulSoup/bs4/doc/):
 
 ``$ pip3 install requests``
 <br>
