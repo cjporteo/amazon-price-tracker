@@ -18,7 +18,7 @@ for line in address_lines:
     send_keys[key] = address
 
 thresh_dec, thresh_inc = [float(settings[i].split("=")[1])/100 for i in range(2)]
-# % of price change that will trigger an email notification
+# percentage of price decrease/increase that will trigger an email notification
 
 try:
     product_price_data = pickle.load(open("item_price_data.pickle", "rb"))
