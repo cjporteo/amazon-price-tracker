@@ -51,7 +51,7 @@ Execution of the script can be automated via cron. Use the following command to 
 
 To run the script every two hours, for instance, add the following line to the crontab:
 
-``cd /Tracker-File-Path/`` (replace this with wherever you are keeping the tracker)
+``cd /Tracker-File-Path/`` (replace this with wherever you are keeping the tracker) <br>
 ``0 */2 * * * python3 scrape.py``
 
 ## Email Notification
